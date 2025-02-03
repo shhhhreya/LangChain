@@ -4,7 +4,6 @@ from langchain_core.tools import tool
 def multiply(a:int, b:int) -> int:
     """Multiply two numbers."""
     return a*b
-
 res = multiply.invoke({'a':2, 'b':3})
 print(res)
 

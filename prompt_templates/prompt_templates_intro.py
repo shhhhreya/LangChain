@@ -21,7 +21,7 @@ messages = [
     ("human", "tell me {joke_count} jokes")
 ]
 
-prompt_template_ = ChatPromptTemplate.from_messages(messages)
+prompt_template_ = ChatPromptTemplate(messages)
 prompt_ = prompt_template_.invoke({
     "topic":"engineers",
     "joke_count": 3
