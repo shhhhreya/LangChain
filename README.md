@@ -7,8 +7,8 @@
 ## Step 1: Clone the Repository
 
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/shhhhreya/LangChain
+cd LangChain
 
 # On macOS/Linux
 python3 -m venv venv
